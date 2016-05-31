@@ -3,6 +3,7 @@ define(function(require, exports, module) {
 	require("bootstrap");
 	require("highcharts-for-seajs");	
 	var inter = null;
+	alert();
 	exports.init = function(){
 		reloadFirst();
 		$("#_sino_ups_tab a").click(function (e) {
