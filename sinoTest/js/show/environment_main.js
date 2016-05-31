@@ -59,7 +59,7 @@ define(function(require, exports, module) {
 //			}, 30000);
 	 };
 
-     
+     alert("1");
      
 	 //HighCharts JS end
 	 function reloadFirst(){
