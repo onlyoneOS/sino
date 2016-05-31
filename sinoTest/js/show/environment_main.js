@@ -11,6 +11,7 @@ define(function(require, exports, module) {
             e.preventDefault();
             loadCon($(this).attr("href"));
         });
+		alert();
 		loadCon('#tabs-10');
 		  //HighCharts JS start
 		function loadCon(tabName){
